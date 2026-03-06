@@ -325,7 +325,7 @@ class SudokuEnv(gym.Env):
                             self.ax.text(
                                 x, y, str(num + 1),
                                 ha='center', va='center',
-                                fontsize=6, color='green', zorder=2
+                                fontsize=10, color='green', zorder=2
                             )
 
         self.ax.set_xlim(0, 9)
