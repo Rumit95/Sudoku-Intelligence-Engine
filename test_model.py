@@ -94,8 +94,8 @@ def test_on_random_puzzles(model_path="models/best_sudoku_model", csv_path="sudo
 if __name__ == "__main__":
     # --- CUSTOM PUZZLE TEST ---
     # To test a custom puzzle, paste the 81-digit string here:
-    my_custom_sudoku = "000000000000003085001020000000507000004000100090000000500000073002010000000040009" 
-    # my_custom_sudoku = ""
+    # my_custom_sudoku = "000000000000003085001020000000507000004000100090000000500000073002010000000040009" 
+    my_custom_sudoku = ""
     # my_custom_sudoku = "000000000000000000000000000000000000000000000000000000000000000000000000000000000"
     
     # If my_custom_sudoku is empty, it will test random puzzles from the dataset instead.
